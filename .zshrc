@@ -1,3 +1,6 @@
+# vim
+alias vi='vim'
+
 # git
 source ~/github/zsh-git-prompt/zshrc.sh
 
