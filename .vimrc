@@ -19,6 +19,10 @@ NeoBundleCheck
 set nobackup
 set scrolloff=5
 
+" copy
+set clipboard+=autoselect
+set clipboard+=unnamed
+
 " edit
 set backspace=indent,eol,start
 
