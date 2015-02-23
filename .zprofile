@@ -13,3 +13,6 @@ setopt hist_ignore_all_dups
 
 # ruby
 eval "$(rbenv init -)"
+
+# packer
+export PATH=$PATH:/usr/local/packer
