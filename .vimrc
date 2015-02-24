@@ -42,7 +42,7 @@ set smarttab
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set history=200
+set history=1000
 nmap <silent> <Esc><Esc> :nohlsearch<CR>
 
 " explore
