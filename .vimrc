@@ -59,7 +59,7 @@ set matchpairs& matchpairs+=<:>
 set matchtime=3
 
 " tags
-set tags=/Users/syunta/.vim/tags/sicp.tag
+set tags=~/.vim/tags/sicp.tag
 
 " scheme
 set filetype=scheme
