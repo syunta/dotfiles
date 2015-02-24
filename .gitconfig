@@ -2,7 +2,6 @@
 	name = syunta
 	email = kitagawa@timedia.co.jp
 [core]
-	excludesfile = /Users/syunta/.gitignore_global
-	excludesfile = /Users/kitagawa/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
   lg = log --graph --decorate --pretty=oneline --abbrev-commit
