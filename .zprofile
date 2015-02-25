@@ -11,6 +11,9 @@ setopt EXTENDED_HISTORY
 setopt share_history
 setopt hist_ignore_all_dups
 
+# edit
+export WORDCHARS="*?_-.[]~=&!#$%^(){}<>"
+
 # ruby
 eval "$(rbenv init -)"
 
