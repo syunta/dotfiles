@@ -1,23 +1,37 @@
-" neobundle
-set runtimepath+=~/.vim/bundle/neobundle.vim/
+" Note: Skip initialization for vim-tiny or vim-small.
+if !1 | finish | endif
+
+if has('vim_starting')
+  if &compatible
+    set nocompatible
+  endif
+
+  " Required:
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
 " Required:
 call neobundle#begin(expand('~/.vim/bundle/'))
+
+" Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-" plugin
+" My Bundles here:
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'taichouchou2/html5.vim'
 NeoBundle 'hail2u/vim-css3-syntax'
 
 call neobundle#end()
+
 " Required:
-"filetype plugin indent on
+filetype plugin indent on
 
 NeoBundleCheck
 
+
 " general
 set nobackup
-set scrolloff=5
+set history=1000
 
 " copy
 set clipboard+=autoselect
@@ -31,6 +45,7 @@ set number
 colorscheme peachpuff
 syntax on
 set showmatch
+set scrolloff=5
 
 " cli
 set wildmenu
@@ -41,9 +56,8 @@ set autoindent
 set smarttab
 set expandtab
 set tabstop=2
+set softtabstop=2
 set shiftwidth=2
-set history=1000
-nmap <silent> <Esc><Esc> :nohlsearch<CR>
 
 " explore
 let g:netrw_liststyle = 3
@@ -57,14 +71,7 @@ set smartcase
 set noignorecase
 set matchpairs& matchpairs+=<:>
 set matchtime=3
+nmap <silent> <Esc><Esc> :nohlsearch<CR>
 
 " tags
 set tags=~/.vim/tags/sicp.tag
-
-" scheme
-set filetype=scheme
-setlocal lisp
-
-" coffee
-set filetype=coffee
-setlocal tabstop=2 autoindent expandtab shiftwidth=2 softtabstop=2
