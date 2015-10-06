@@ -34,6 +34,9 @@ NeoBundleCheck
 set nobackup
 set history=1000
 
+" encoding
+set fileencodings=utf-8,cp932,sjis,euc-jp,latin1
+
 " copy
 set clipboard+=autoselect
 set clipboard+=unnamed
