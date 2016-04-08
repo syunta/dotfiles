@@ -52,6 +52,7 @@ set showmatch
 set scrolloff=5
 set ruler
 set nowrap
+set showcmd
 
 " cli
 set wildmenu
