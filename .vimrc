@@ -21,6 +21,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'tpope/vim-rails'
+NeoBundle 'Shougo/unite.vim'
 
 call neobundle#end()
 
