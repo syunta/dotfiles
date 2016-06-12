@@ -8,3 +8,4 @@ ln -s "$repo/.tmux.conf"        ~/.tmux.conf
 ln -s "$repo/.vimrc"            ~/.vimrc
 ln -s "$repo/.zprofile"         ~/.zprofile
 ln -s "$repo/.zshrc"            ~/.zshrc
+ln -s "$repo/.ghci"             ~/.ghci
