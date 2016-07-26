@@ -22,6 +22,7 @@ NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'kana/vim-filetype-haskell'
 
 call neobundle#end()
 
