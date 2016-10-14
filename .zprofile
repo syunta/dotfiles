@@ -17,6 +17,10 @@ export WORDCHARS="*?_-.[]~=&!#$%^(){}<>"
 # ruby
 eval "$(rbenv init -)"
 
+# go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # packer
 export PATH=$PATH:/usr/local/packer
 
