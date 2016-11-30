@@ -23,6 +23,7 @@ NeoBundle 'othree/html5.vim'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'kana/vim-filetype-haskell'
+NeoBundle 'scrooloose/nerdtree'
 
 call neobundle#end()
 
