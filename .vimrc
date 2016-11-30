@@ -34,7 +34,7 @@ NeoBundleCheck
 
 " general
 set nobackup
-set history=1000
+set history=9000
 
 " encoding
 set fileencodings=utf-8,cp932,sjis,euc-jp,latin1
