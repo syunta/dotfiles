@@ -87,6 +87,3 @@ set noignorecase
 set matchpairs& matchpairs+=<:>
 set matchtime=3
 nmap <silent> <Esc><Esc> :nohlsearch<CR>
-
-" tags
-set tags=~/.vim/tags/sicp.tag
