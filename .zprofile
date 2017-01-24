@@ -14,9 +14,6 @@ setopt hist_ignore_all_dups
 # edit
 export WORDCHARS="*?_-.[]~=&!#$%^(){}<>"
 
-# ruby
-eval "$(rbenv init -)"
-
 # go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
@@ -27,3 +24,6 @@ export PATH=$PATH:/usr/local/packer
 # homebrew
 PATH=$(echo $PATH | sed 's/\/usr\/local\/bin://g' | sed 's/:\/usr\/local\/bin$//g')
 export PATH=/usr/local/bin:$PATH
+
+# ruby
+eval "$(rbenv init -)"
