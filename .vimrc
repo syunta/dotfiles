@@ -50,7 +50,7 @@ set backspace=indent,eol,start
 
 " view
 set number
-colorscheme peachpuff
+colorscheme desert
 syntax on
 set showmatch
 set scrolloff=5
