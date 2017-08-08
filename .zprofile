@@ -2,6 +2,9 @@ if [ -f ~/.zshrc ] ; then
   . ~/.zshrc
 fi
 
+# color
+export TERM=xterm-256color
+
 # history
 export HISTFILE=${HOME}/.zsh_history
 export HISTSIZE=100000
