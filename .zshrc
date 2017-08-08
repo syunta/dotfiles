@@ -1,5 +1,5 @@
 # vim
-alias vi='vim'
+alias vi='nvim'
 
 # git
 source ~/github/zsh-git-prompt/zshrc.sh
