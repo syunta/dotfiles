@@ -30,3 +30,5 @@ export PATH=/usr/local/bin:$PATH
 
 # ruby
 eval "$(rbenv init -)"
+
+export PATH="$HOME/.cargo/bin:$PATH"
