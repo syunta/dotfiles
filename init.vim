@@ -17,6 +17,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('Shougo/denite.nvim')
   call dein#add('rust-lang/rust.vim')
   call dein#add('vim-syntastic/syntastic')
+  call dein#add('w0ng/vim-hybrid')
 
   " Required:
   call dein#end()
@@ -35,7 +36,8 @@ set clipboard=unnamed
 
 " view
 set number
-colorscheme desert
+set background=dark
+colorscheme hybrid
 set showmatch
 set scrolloff=5
 set ruler
