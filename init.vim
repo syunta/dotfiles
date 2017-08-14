@@ -15,6 +15,7 @@ if dein#load_state('~/.cache/dein')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/denite.nvim')
+  call dein#add('rust-lang/rust.vim')
 
   " Required:
   call dein#end()
