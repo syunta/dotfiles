@@ -16,6 +16,7 @@ if dein#load_state('~/.cache/dein')
   " Add or remove your plugins here:
   call dein#add('Shougo/denite.nvim')
   call dein#add('rust-lang/rust.vim')
+  call dein#add('vim-syntastic/syntastic')
 
   " Required:
   call dein#end()
@@ -65,3 +66,13 @@ set noignorecase
 set matchpairs& matchpairs+=<:>
 set matchtime=3
 nmap <silent> <Esc><Esc> :nohlsearch<CR>
+
+" syntastics
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
