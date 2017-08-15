@@ -18,6 +18,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('Shougo/denite.nvim')
   call dein#add('rust-lang/rust.vim')
   call dein#add('eagletmt/ghcmod-vim')
+  call dein#add('neovimhaskell/haskell-vim')
   call dein#add('vim-syntastic/syntastic')
   call dein#add('w0ng/vim-hybrid')
 
