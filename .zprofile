@@ -21,9 +21,6 @@ export WORDCHARS="*?_-.[]~=&!#$%^(){}<>"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-# packer
-export PATH=$PATH:/usr/local/packer
-
 # homebrew
 PATH=$(echo $PATH | sed 's/\/usr\/local\/bin://g' | sed 's/:\/usr\/local\/bin$//g')
 export PATH=/usr/local/bin:$PATH
