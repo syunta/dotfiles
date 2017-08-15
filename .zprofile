@@ -31,4 +31,8 @@ export PATH=/usr/local/bin:$PATH
 # ruby
 eval "$(rbenv init -)"
 
+# rust
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# haskell
+export PATH="$HOME/.cabal/bin:$PATH"
