@@ -3,7 +3,7 @@
 	email = kitagawa@timedia.co.jp
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = vim
+	editor = nvim
 [alias]
   lg = log --graph --decorate --pretty=oneline --abbrev-commit
   dcommit = svn dcommit --rmdir
