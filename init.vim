@@ -14,6 +14,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
+  call dein#add('Shougo/deoplete.nvim') " pip3 install neovim
   call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
   call dein#add('Shougo/denite.nvim')
   call dein#add('rust-lang/rust.vim')
@@ -85,3 +86,6 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_rust_checkers = ['rustc']
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_haskell_checkers = ['hlint']
+
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
