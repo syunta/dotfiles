@@ -32,4 +32,5 @@ eval "$(rbenv init -)"
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # haskell
-export PATH="$HOME/.cabal/bin:$PATH"
+export PATH=$PATH:$HOME/.cabal/bin
+export PATH=$PATH:$HOME/.local/bin
