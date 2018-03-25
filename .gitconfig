@@ -9,3 +9,5 @@
   dcommit = svn dcommit --rmdir
 [rerere]
 	enabled = true
+[ghq]
+	root = ~/src
