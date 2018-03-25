@@ -2,7 +2,7 @@
 alias vi='nvim'
 
 # git
-source ~/github/zsh-git-prompt/zshrc.sh
+source ~/src/github.com/olivierverdier/zsh-git-prompt/zshrc.sh
 # Default values for the appearance of the prompt. Configure at will.
 # ZSH_THEME_GIT_PROMPT_PREFIX="("
 # ZSH_THEME_GIT_PROMPT_SUFFIX=")"
