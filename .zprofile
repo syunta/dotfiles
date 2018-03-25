@@ -18,7 +18,7 @@ setopt hist_ignore_all_dups
 export WORDCHARS="*?_-.[]~=&!#$%^(){}<>"
 
 # go
-export GOPATH=$HOME/go
+export GOPATH=$HOME
 export PATH=$PATH:$GOPATH/bin
 
 # homebrew
