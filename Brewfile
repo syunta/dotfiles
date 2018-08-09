@@ -11,4 +11,6 @@ brew 'nkf'
 brew 'reattach-to-user-namespace'
 brew 'redis'
 brew 'tmux'
+
 cask 'java'
+cask 'sequel-pro'
