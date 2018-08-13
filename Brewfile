@@ -12,6 +12,7 @@ brew 'reattach-to-user-namespace'
 brew 'redis'
 brew 'tmux'
 brew 'jq'
+brew 'git-secrets'
 
 cask 'java'
 cask 'sequel-pro'
