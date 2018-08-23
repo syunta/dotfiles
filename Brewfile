@@ -13,6 +13,7 @@ brew 'redis'
 brew 'tmux'
 brew 'jq'
 brew 'git-secrets'
+brew 'yarn'
 
 cask 'java'
 cask 'sequel-pro'
