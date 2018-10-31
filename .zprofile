@@ -28,6 +28,9 @@ export PATH=/usr/local/bin:$PATH
 # ruby
 eval "$(rbenv init -)"
 
+# python
+eval "$(pyenv init -)"
+
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
