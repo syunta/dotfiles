@@ -14,9 +14,9 @@ if dein#load_state('~/.cache/dein')
   call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
-  call dein#add('Shougo/deoplete.nvim') " pip3 install neovim
-  call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
-  call dein#add('Shougo/denite.nvim')
+  "call dein#add('Shougo/deoplete.nvim') " pip3 install neovim
+  "call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
+  "call dein#add('Shougo/denite.nvim')
   call dein#add('rust-lang/rust.vim')
   call dein#add('eagletmt/ghcmod-vim')
   call dein#add('neovimhaskell/haskell-vim')
