@@ -21,9 +21,24 @@ PROMPT='
 [%{$fg[green]%}%n@%m%{$reset_color%}] %{$fg[yellow]%}%~%{$reset_color%} $(git_super_status)
 \$ '
 
-# tab completion
+# completions
+if [ ! -e ~/.zsh/completion ]; then
+  # https://docs.docker.com/compose/completion/
+  mkdir -p ~/.zsh/completion
+fi
+
+## tab completion
 autoload -U compinit
-compinit
+
+## docker-compose completion
+if [ ! -e ~/.zsh/completion/_docker-compose ]; then
+  # https://docs.docker.com/compose/completion/
+  curl -L https://raw.githubusercontent.com/docker/compose/$(docker-compose version --short)/contrib/completion/zsh/_docker-compose > ~/.zsh/completion/_docker-compose
+fi
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit
+
+compinit -i
 
 # ls color
 export LSCOLORS=gxfxcxdxbxegedabagacag
