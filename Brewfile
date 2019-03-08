@@ -15,6 +15,7 @@ brew 'tmux'
 brew 'jq'
 brew 'git-secrets'
 brew 'yarn'
+brew 'awscli'
 
 cask 'java'
 cask 'sequel-pro'
