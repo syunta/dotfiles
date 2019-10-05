@@ -20,7 +20,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('rust-lang/rust.vim')
   call dein#add('eagletmt/ghcmod-vim')
   call dein#add('neovimhaskell/haskell-vim')
-  call dein#add('vim-syntastic/syntastic')
+  "call dein#add('vim-syntastic/syntastic')
   call dein#add('w0ng/vim-hybrid')
 
   " Required:
@@ -74,9 +74,9 @@ set matchtime=3
 nmap <silent> <Esc><Esc> :nohlsearch<CR>
 
 " syntastics
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
