@@ -16,6 +16,7 @@ brew 'jq'
 brew 'git-secrets'
 brew 'yarn'
 brew 'awscli'
+brew 'hub'
 
 cask 'java'
 cask 'sequel-pro'
