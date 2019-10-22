@@ -18,7 +18,7 @@ source ~/src/github.com/olivierverdier/zsh-git-prompt/zshrc.sh
 
 # PROMPT style
 PROMPT='
-[%{$fg[green]%}%n@%m%{$reset_color%}] %{$fg[yellow]%}%~%{$reset_color%} $(git_super_status)
+[%{$fg[green]%}%n%{$reset_color%}] %{$fg[yellow]%}%~%{$reset_color%} $(git_super_status)
 \$ '
 
 # completions
