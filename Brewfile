@@ -1,6 +1,7 @@
 # brew tap Homebrew/bundle
 
 tap 'caskroom/cask'
+brew 'zsh'
 brew 'leiningen'
 brew 'rbenv'
 brew 'pyenv'
