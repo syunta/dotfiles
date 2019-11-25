@@ -1,6 +1,6 @@
 [user]
 	name = syunta
-	email = kitagawa@timedia.co.jp
+	email = shunta.kitagawa@toyokumo.co.jp
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = nvim
