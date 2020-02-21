@@ -37,3 +37,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # haskell
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.cabal/bin
+
+# clojure
+export PATH=$PATH:~/.local/share/nvim/plugged/vim-iced/bin
