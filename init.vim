@@ -10,7 +10,15 @@ Plug 'eagletmt/ghcmod-vim'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'w0ng/vim-hybrid'
 
+" for vim-iced
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'guns/vim-sexp',    {'for': 'clojure'}
+Plug 'liquidz/vim-iced', {'for': 'clojure'}
+
 call plug#end()
+
+" for vim-iced
+let g:iced_enable_default_key_mappings = v:true
 
 " general
 set history=9000
