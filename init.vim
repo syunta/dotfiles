@@ -1,36 +1,16 @@
-if &compatible
-  set nocompatible
-endif
-
-" Required:
-set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
-
-" Required:
-if dein#load_state('~/.cache/dein')
-  call dein#begin('~/.cache/dein')
-
-  " Let dein manage dein
-  " Required:
-  call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
-
-  " Add or remove your plugins here:
-  "call dein#add('Shougo/deoplete.nvim') " pip3 install neovim
-  "call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
-  "call dein#add('Shougo/denite.nvim')
-  call dein#add('rust-lang/rust.vim')
-  call dein#add('eagletmt/ghcmod-vim')
-  call dein#add('neovimhaskell/haskell-vim')
-  "call dein#add('vim-syntastic/syntastic')
-  call dein#add('w0ng/vim-hybrid')
-
-  " Required:
-  call dein#end()
-  call dein#save_state()
-endif
-
-" Required:
+set nocompatible
+set encoding=utf-8
+scriptencoding utf-8
 filetype plugin indent on
-syntax enable
+
+call plug#begin('~/.local/share/nvim/plugged')
+
+Plug 'rust-lang/rust.vim'
+Plug 'eagletmt/ghcmod-vim'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'w0ng/vim-hybrid'
+
+call plug#end()
 
 " general
 set history=9000
