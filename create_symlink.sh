@@ -16,6 +16,8 @@ rm ~/.zshrc
 ln -s "$repo/.zshrc" ~/.zshrc
 rm ~/.ghci
 ln -s "$repo/.ghci" ~/.ghci
+rm ~/.ghci
+ln -s "$repo/.gnupg" ~/.gnupg
 
 if [ ! -d ~/.config/nvim ]; then
   mkdir -p ~/.config/nvim

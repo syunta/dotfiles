@@ -18,6 +18,8 @@ brew 'git-secrets'
 brew 'yarn'
 brew 'awscli'
 brew 'hub'
+brew 'gnupg'
+brew 'pinentry-mac'
 
 cask 'java'
 cask 'sequel-pro'
