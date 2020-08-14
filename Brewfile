@@ -22,6 +22,7 @@ brew 'awscli'
 brew 'hub'
 brew 'gnupg'
 brew 'pinentry-mac'
+brew 'gnu-sed'
 
 cask 'java'
 cask 'docker'

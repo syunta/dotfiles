@@ -19,6 +19,8 @@ ln -s "$repo/.ghci" ~/.ghci
 rm ~/.ghci
 ln -s "$repo/.gnupg" ~/.gnupg
 
+ln -s $(which gsed) /usr/local/bin/sed
+
 if [ ! -d ~/.config/nvim ]; then
   mkdir -p ~/.config/nvim
 fi
