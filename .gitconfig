@@ -12,4 +12,6 @@
 [ghq]
 	root = ~/src
 [url "git@github.com:"]
-    insteadOf = https://github.com/
+  insteadOf = https://github.com/
+[gpg]
+	program = gpg
