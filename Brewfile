@@ -3,6 +3,7 @@
 tap 'caskroom/cask'
 brew 'zsh'
 brew 'git'
+brew 'neovim'
 brew 'leiningen'
 brew 'rbenv'
 brew 'pyenv'
