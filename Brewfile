@@ -24,4 +24,5 @@ brew 'gnupg'
 brew 'pinentry-mac'
 
 cask 'java'
+cask 'docker'
 cask 'sequel-pro'
