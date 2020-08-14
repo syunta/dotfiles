@@ -1,6 +1,6 @@
 # brew tap Homebrew/bundle
 
-tap 'caskroom/cask'
+tap 'homebrew/cask'
 brew 'zsh'
 brew 'git'
 brew 'neovim'
