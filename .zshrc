@@ -1,6 +1,15 @@
 # vim
 alias vi='nvim'
 
+# history
+export HISTFILE=${HOME}/.zsh_history
+export HISTSIZE=100000
+export SAVEHIST=100000
+setopt hist_ignore_dups
+setopt EXTENDED_HISTORY
+setopt share_history
+setopt hist_ignore_all_dups
+
 # git
 source ~/src/github.com/olivierverdier/zsh-git-prompt/zshrc.sh
 # Default values for the appearance of the prompt. Configure at will.
