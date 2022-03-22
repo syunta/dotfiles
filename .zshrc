@@ -11,6 +11,7 @@ setopt share_history
 setopt hist_ignore_all_dups
 
 # git
+alias python="/usr/bin/python3"
 source ~/src/github.com/olivierverdier/zsh-git-prompt/zshrc.sh
 # Default values for the appearance of the prompt. Configure at will.
 # ZSH_THEME_GIT_PROMPT_PREFIX="("
