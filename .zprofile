@@ -12,9 +12,8 @@ export WORDCHARS="*?_-.[]~=&!#$%^(){}<>"
 export GOPATH=$HOME
 export PATH=$PATH:$GOPATH/bin
 
-# homebrew
-PATH=$(echo $PATH | sed 's/\/usr\/local\/bin://g' | sed 's/:\/usr\/local\/bin$//g')
-export PATH=/usr/local/bin:$PATH
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # ruby
 eval "$(rbenv init -)"
