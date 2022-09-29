@@ -23,6 +23,7 @@ brew 'hub'
 brew 'gnupg'
 brew 'pinentry-mac'
 brew 'gnu-sed'
+brew 'mkcert'
 
 cask 'docker'
 cask 'sequel-pro'
