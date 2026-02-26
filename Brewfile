@@ -1,6 +1,5 @@
 # brew tap Homebrew/bundle
 
-tap 'homebrew/cask'
 brew 'zsh'
 brew 'git'
 brew 'neovim'
@@ -17,13 +16,9 @@ brew 'redis'
 brew 'tmux'
 brew 'jq'
 brew 'git-secrets'
-brew 'yarn'
 brew 'awscli'
 brew 'hub'
 brew 'gnupg'
 brew 'pinentry-mac'
 brew 'gnu-sed'
 brew 'mkcert'
-
-cask 'docker'
-cask 'sequel-pro'
